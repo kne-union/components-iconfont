@@ -1,4 +1,4 @@
-const { default: ColorFulFont } = _ColorFulFont;
+const { default: ColorfulFont } = _ColorfulFont;
 const { createWithRemoteLoader } = remoteLoader;
 const { Space, Slider } = antd;
 const { useState } = React;
@@ -8,7 +8,7 @@ const BaseExample = createWithRemoteLoader({
   const [value, setValue] = useState(30);
   const [Icon] = remoteModules;
   return (
-    <ColorFulFont>
+    <ColorfulFont>
       {({ list }) => {
         return (
           <Space direction="vertical">
@@ -30,7 +30,7 @@ const BaseExample = createWithRemoteLoader({
           </Space>
         );
       }}
-    </ColorFulFont>
+    </ColorfulFont>
   );
 });
 

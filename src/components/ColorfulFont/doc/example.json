@@ -7,8 +7,8 @@
       "code": "./base.js",
       "scope": [
         {
-          "name": "_ColorFulFont",
-          "packageName": "@components/ColorFulFont"
+          "name": "_ColorfulFont",
+          "packageName": "@components/ColorfulFont"
         },
         {
           "name": "remoteLoader",
