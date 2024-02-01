@@ -1,6 +1,6 @@
 {
   "name": "@kne/components-iconfont",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "dependencies": {
     "@kne/react-fetch": "^1.4.2",
     "antd": "^5.13.3",
@@ -65,7 +65,7 @@
   "devDependencies": {
     "@craco/craco": "^7.1.0",
     "@kne/craco-module-federation": "^1.1.1",
-    "@kne/modules-dev": "^0.1.27",
+    "@kne/modules-dev": "^1.0.1",
     "@kne/remote-loader": "^1.2.3",
     "cross-env": "^7.0.3",
     "fs-extra": "^11.1.1",
