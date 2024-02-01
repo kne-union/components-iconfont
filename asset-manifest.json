@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.js": "/components-iconfont/static/js/main.0ad9f0f0.js",
-    "components_iconfont_0_1_1.js": "/components-iconfont/remoteEntry.js",
-    "static/css/65.756d13d4.chunk.css": "/components-iconfont/static/css/65.756d13d4.chunk.css",
-    "static/js/65.a7ae7381.chunk.js": "/components-iconfont/static/js/65.a7ae7381.chunk.js",
+    "main.js": "/components-iconfont/static/js/main.8fbaf87a.js",
+    "components_iconfont_0_1_2.js": "/components-iconfont/remoteEntry.js",
+    "static/css/368.017b569e.chunk.css": "/components-iconfont/static/css/368.017b569e.chunk.css",
+    "static/js/368.3613615b.chunk.js": "/components-iconfont/static/js/368.3613615b.chunk.js",
     "static/js/744.ebd5af86.chunk.js": "/components-iconfont/static/js/744.ebd5af86.chunk.js",
     "static/js/418.0da99a6a.chunk.js": "/components-iconfont/static/js/418.0da99a6a.chunk.js",
     "static/js/892.20b35042.chunk.js": "/components-iconfont/static/js/892.20b35042.chunk.js",
     "static/js/791.d1b84881.chunk.js": "/components-iconfont/static/js/791.d1b84881.chunk.js",
+    "static/js/119.7d758e1a.chunk.js": "/components-iconfont/static/js/119.7d758e1a.chunk.js",
     "static/js/157.80dbc9fd.chunk.js": "/components-iconfont/static/js/157.80dbc9fd.chunk.js",
     "static/js/170.6c283a95.chunk.js": "/components-iconfont/static/js/170.6c283a95.chunk.js",
     "static/js/195.8272ce21.chunk.js": "/components-iconfont/static/js/195.8272ce21.chunk.js",
@@ -19,17 +20,18 @@
     "static/js/146.973e43d5.chunk.js": "/components-iconfont/static/js/146.973e43d5.chunk.js",
     "static/js/737.9174f0a9.chunk.js": "/components-iconfont/static/js/737.9174f0a9.chunk.js",
     "static/js/824.f6b5383f.chunk.js": "/components-iconfont/static/js/824.f6b5383f.chunk.js",
-    "static/js/308.ab8af663.chunk.js": "/components-iconfont/static/js/308.ab8af663.chunk.js",
-    "static/js/795.acb1e849.chunk.js": "/components-iconfont/static/js/795.acb1e849.chunk.js",
+    "static/js/308.8e8014f0.chunk.js": "/components-iconfont/static/js/308.8e8014f0.chunk.js",
+    "static/js/795.11843a56.chunk.js": "/components-iconfont/static/js/795.11843a56.chunk.js",
     "index.html": "/components-iconfont/index.html",
-    "main.0ad9f0f0.js.map": "/components-iconfont/static/js/main.0ad9f0f0.js.map",
+    "main.8fbaf87a.js.map": "/components-iconfont/static/js/main.8fbaf87a.js.map",
     "remoteEntry.js.map": "/components-iconfont/remoteEntry.js.map",
-    "65.756d13d4.chunk.css.map": "/components-iconfont/static/css/65.756d13d4.chunk.css.map",
-    "65.a7ae7381.chunk.js.map": "/components-iconfont/static/js/65.a7ae7381.chunk.js.map",
+    "368.017b569e.chunk.css.map": "/components-iconfont/static/css/368.017b569e.chunk.css.map",
+    "368.3613615b.chunk.js.map": "/components-iconfont/static/js/368.3613615b.chunk.js.map",
     "744.ebd5af86.chunk.js.map": "/components-iconfont/static/js/744.ebd5af86.chunk.js.map",
     "418.0da99a6a.chunk.js.map": "/components-iconfont/static/js/418.0da99a6a.chunk.js.map",
     "892.20b35042.chunk.js.map": "/components-iconfont/static/js/892.20b35042.chunk.js.map",
     "791.d1b84881.chunk.js.map": "/components-iconfont/static/js/791.d1b84881.chunk.js.map",
+    "119.7d758e1a.chunk.js.map": "/components-iconfont/static/js/119.7d758e1a.chunk.js.map",
     "157.80dbc9fd.chunk.js.map": "/components-iconfont/static/js/157.80dbc9fd.chunk.js.map",
     "170.6c283a95.chunk.js.map": "/components-iconfont/static/js/170.6c283a95.chunk.js.map",
     "195.8272ce21.chunk.js.map": "/components-iconfont/static/js/195.8272ce21.chunk.js.map",
@@ -41,10 +43,10 @@
     "146.973e43d5.chunk.js.map": "/components-iconfont/static/js/146.973e43d5.chunk.js.map",
     "737.9174f0a9.chunk.js.map": "/components-iconfont/static/js/737.9174f0a9.chunk.js.map",
     "824.f6b5383f.chunk.js.map": "/components-iconfont/static/js/824.f6b5383f.chunk.js.map",
-    "308.ab8af663.chunk.js.map": "/components-iconfont/static/js/308.ab8af663.chunk.js.map",
-    "795.acb1e849.chunk.js.map": "/components-iconfont/static/js/795.acb1e849.chunk.js.map"
+    "308.8e8014f0.chunk.js.map": "/components-iconfont/static/js/308.8e8014f0.chunk.js.map",
+    "795.11843a56.chunk.js.map": "/components-iconfont/static/js/795.11843a56.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.0ad9f0f0.js"
+    "static/js/main.8fbaf87a.js"
   ]
 }
