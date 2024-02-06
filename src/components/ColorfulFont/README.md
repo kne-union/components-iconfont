@@ -1,14 +1,10 @@
-
 # ColorfulFont
-
 
 ### 概述
 
 彩色字体
 
-
 ### 示例
-
 
 #### 示例样式
 
@@ -23,10 +19,10 @@
 
 - 这里填写示例标题
 - 这里填写示例说明
-- _ColorFulFont(@components/ColorFulFont),remoteLoader(@kne/remote-loader),antd(antd)
+- \_ColorfulFont(@components/ColorfulFont),remoteLoader(@kne/remote-loader),antd(antd)
 
 ```jsx
-const { default: ColorFulFont } = _ColorFulFont;
+const { default: ColorfulFont } = _ColorfulFont;
 const { createWithRemoteLoader } = remoteLoader;
 const { Space, Slider } = antd;
 const { useState } = React;
@@ -36,7 +32,7 @@ const BaseExample = createWithRemoteLoader({
   const [value, setValue] = useState(30);
   const [Icon] = remoteModules;
   return (
-    <ColorFulFont>
+    <ColorfulFont>
       {({ list }) => {
         return (
           <Space direction="vertical">
@@ -58,17 +54,14 @@ const BaseExample = createWithRemoteLoader({
           </Space>
         );
       }}
-    </ColorFulFont>
+    </ColorfulFont>
   );
 });
 
 render(<BaseExample />);
-
 ```
-
 
 ### API
 
 | 属性名 | 说明 | 类型 | 默认值 |
 | ------ | ---- | ---- | ------ |
-
