@@ -6,6 +6,34 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "40650556",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e6d9",
+      "unicode_decimal": 59097
+    },
+    {
+      "icon_id": "40650510",
+      "name": "投递箱",
+      "font_class": "toudixiang",
+      "unicode": "e6d6",
+      "unicode_decimal": 59094
+    },
+    {
+      "icon_id": "40650511",
+      "name": "已收藏",
+      "font_class": "yishoucang",
+      "unicode": "e6d7",
+      "unicode_decimal": 59095
+    },
+    {
+      "icon_id": "40650512",
+      "name": "推荐",
+      "font_class": "tuijian",
+      "unicode": "e6d8",
+      "unicode_decimal": 59096
+    },
+    {
       "icon_id": "40179265",
       "name": "发送对话",
       "font_class": "fasongduihua",
