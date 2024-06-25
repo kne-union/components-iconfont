@@ -47,18 +47,22 @@ const rootDir = process.cwd(), srcDir = path.resolve(rootDir, 'src/icon'),
         output.colorful = outputName;
     })();
     console.log('彩色图标处理完成:', output.colorful);
+    const fontDirs = ['font', 'fontAi'];
     console.log('开始复制字体图标');
     await (async () => {
-        const dir = path.resolve(srcDir, "font");
-        const keyFile = await fs.readFile(path.resolve(dir, 'iconfont.json'));
-        const md5 = crypto.createHash("md5");
-        const md5Str = md5.update(keyFile).digest("hex");
-        const outputName = "font_" + md5Str.slice(0, 12);
-        await fs.copy(dir, path.resolve(distDir, outputName));
-        await fs.writeFile(path.resolve(rootDir, 'src/fonts.js'), `const fonts = ${JSON.stringify(await fs.readJson(path.resolve(distDir, outputName, 'iconfont.json')))};export default fonts;`);
-        output.font = outputName;
+        for (let index = 0; index < fontDirs.length; index++) {
+            const fontDir = fontDirs[index];
+            const dir = path.resolve(srcDir, fontDir);
+            const keyFile = await fs.readFile(path.resolve(dir, 'iconfont.json'));
+            const md5 = crypto.createHash("md5");
+            const md5Str = md5.update(keyFile).digest("hex");
+            const outputName = fontDir + '_' + md5Str.slice(0, 12);
+            await fs.copy(dir, path.resolve(distDir, outputName));
+            await fs.writeFile(path.resolve(rootDir, `src/${fontDir}s.js`), `const ${fontDir}s = ${JSON.stringify(await fs.readJson(path.resolve(distDir, outputName, 'iconfont.json')))};export default ${fontDir}s;`);
+            output[fontDir] = outputName;            
+        }        
     })();
-    console.log('字体图标复制完成:', output.font);
+    console.log('字体图标复制完成:', output.font, output['fontAi']);
     console.log('开始复制国旗图标');
     await (async () => {
         const dir = path.resolve(srcDir, "country-flag");
