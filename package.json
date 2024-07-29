@@ -1,6 +1,6 @@
 {
   "name": "@kne-components/components-iconfont",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "基础字体图标",
   "dependencies": {
     "@kne/react-fetch": "^1.4.2",
