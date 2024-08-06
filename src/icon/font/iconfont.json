@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "41351802",
+      "name": "语音",
+      "font_class": "yuyin",
+      "unicode": "e6dc",
+      "unicode_decimal": 59100
+    },
+    {
       "icon_id": "40861789",
       "name": "直播",
       "font_class": "zhibo",
