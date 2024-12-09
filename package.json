@@ -1,6 +1,6 @@
 {
   "name": "@kne-components/components-iconfont",
-  "version": "0.1.11",
+  "version": "0.2.0",
   "description": "基础字体图标",
   "dependencies": {
     "@kne/react-fetch": "^1.4.2",
@@ -8,8 +8,8 @@
     "axios": "^1.6.7",
     "classnames": "^2.5.1",
     "lodash": "^4.17.21",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "react-router-dom": "^6.21.3",
     "react-scripts": "5.0.1"
   },
