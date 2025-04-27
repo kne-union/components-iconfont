@@ -8,9 +8,9 @@ window.PUBLIC_URL = process.env.PUBLIC_URL;
 
 const componentsCoreRemote = {
   remote: 'components-core',
-  url: 'https://registry.npmmirror.com',
-  tpl: '{{url}}/@kne%2f{{remote}}/{{version}}/files/build',
-  defaultVersion: '0.1.9'
+  url: 'https://uc.fatalent.cn',
+  tpl: '{{url}}/packages/@kne-components/{{remote}}/{{version}}/build',
+  defaultVersion: '0.3.16'
 };
 
 remoteLoaderPreset({
@@ -22,12 +22,13 @@ remoteLoaderPreset({
         ? {
             remote: 'components-iconfont',
             url: '/',
-            tpl: '{{url}}'
+            tpl: '{{url}}',
+            defaultVersion: process.env.DEFAULT_VERSION
           }
         : {
             remote: 'components-iconfont',
-            url: 'https://registry.npmmirror.com',
-            tpl: '{{url}}/@kne%2f{{remote}}/{{version}}/files/build',
+            url: 'https://uc.fatalent.cn',
+            tpl: '{{url}}/packages/@kne-components/{{remote}}/{{version}}/build',
             defaultVersion: process.env.DEFAULT_VERSION
           }
   }

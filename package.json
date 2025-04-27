@@ -1,6 +1,6 @@
 {
   "name": "@kne-components/components-iconfont",
-  "version": "0.1.11",
+  "version": "0.2.1",
   "description": "基础字体图标",
   "dependencies": {
     "@kne/react-fetch": "^1.4.2",
@@ -10,16 +10,15 @@
     "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.21.3",
-    "react-scripts": "5.0.1"
+    "react-router-dom": "^6.21.3"
   },
   "files": [
     "build"
   ],
   "scripts": {
-    "start": "npm run build:icon && cross-env PORT=3001 MODULES_DEV_PUBLIC_URL=/ craco start",
-    "build:icon": "node scripts/build-icon.js",
+    "start": "npm run build:icon && cross-env PORT=3001 COMPONENTS_NAME=components-iconfont MODULES_DEV_PUBLIC_URL=/ craco start",
     "build": "npm run build:icon && cross-env COMPONENTS_NAME=components-iconfont MODULES_DEV_PUBLIC_URL=/components-iconfont  craco build",
+    "build:icon": "node scripts/build-icon.js",
     "test": "craco test --coverage",
     "eject": "react-scripts eject",
     "init": "husky install && npm i --legacy-peer-deps",
