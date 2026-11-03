@@ -2,6 +2,10 @@
   "name": "@kne-components/components-iconfont",
   "version": "0.3.0",
   "description": "基础字体图标",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kne-union/components-iconfont.git"
+  },
   "dependencies": {
     "@kne/react-fetch": "^1.4.2",
     "antd": "^6.6.8",
